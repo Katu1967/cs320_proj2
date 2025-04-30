@@ -1,0 +1,23 @@
+ 74.645% - direct map  1KB
+ 83.105% - direct map  4KB
+ 86.682% - direct map 16KB
+ 89.613% - direct map 32KB
+ 89.163% - fully assoc true-LRU
+ 88.982% - fully assoc psuedo-LRU
+ 88.584% - set assoc 2 
+ 89.105% - set assoc 4 
+ 89.057% - set assoc 8 
+ 89.127% - set assoc 16 
+ 88.355% - set assoc 2 skip on write miss 
+ 88.786% - set assoc 4 skip on write miss 
+ 88.846% - set assoc 8 skip on write miss 
+ 88.940% - set assoc 16 skip on write miss 
+ 88.823% - set assoc 2 prefetch 
+ 89.271% - set assoc 4 prefetch 
+ 89.362% - set assoc 8 prefetch 
+ 89.423% - set assoc 16 prefetch 
+ 88.465% - set assoc 2 prefetch on miss 
+ 88.974% - set assoc 4 prefetch on miss 
+ 89.062% - set assoc 8 prefetch on miss 
+ 89.153% - set assoc 16 prefetch on miss 
+Best hit rate:  89.613%

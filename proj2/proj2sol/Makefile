@@ -1,7 +1,7 @@
 # Make file with rules for project 2 
 
-cacheSim : 
-	@echo This rule should build the cacheSim executable file
+cacheSim : cacheSim.cpp
+	g++ -g -std=c++11 -o cacheSim cacheSim.cpp
 	
 submit : clean # Run the clean target as a pre-req so we only  submit unbuilt files
 	tar -cvzf ../proj2.tar.gz ../proj2sol
@@ -9,4 +9,4 @@ submit : clean # Run the clean target as a pre-req so we only  submit unbuilt fi
 	
 	
 clean : 
-	-rm cacheSim # Add any other files this Makefile created
+	-rm cacheSim 
